@@ -1,0 +1,241 @@
+    1  ls
+    2  rm test.txt
+    3  ls
+    4  cd Documents/
+    5  ls
+    6  cd
+    7  cd ..
+    8  ls
+    9  cd 2203106
+   10  ls
+   11  touch hacked.txt
+   12  cat hacked.txt
+   13  vim hacked.txt
+   14  ls
+   15  mkdir hacked
+   16  cd cs102-git-essentials/
+   17  ls
+   18  cat text.txt
+   19  cd
+   20  cd ..
+   21  ls
+   22  cd 2203301
+   23  ls
+   24  ls -al
+   25  rm -rf .bash_history
+   26  cd .ssh
+   27  cat .bash_history
+   28  cd ..
+   29  cd 2203305
+   30  ls
+   31  vim evilhello.txt
+   32  ls
+   33  echo "devil is here " >> evil.txt
+   34  ls
+   35  cd ..
+   36  clear
+   37  cd
+   38  cd ..
+   39  ls
+   40  cd 2203134
+   41  ls
+   42  ls -al
+   43  cd
+   44  jllkml;
+   45  clear
+   46  cd ..
+   47  cd..
+   48  cd ..
+   49  ls
+   50  cd fac
+   51  ls
+   52  cd clint
+   53  ls
+   54  cd ..
+   55  cd amol
+   56  ls
+   57  cd ..
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd ug21
+   62  ls
+   63  cd 2104218
+   64  ls
+   65  cd sample
+   66  la
+   67  ls
+   68  cat text.txt
+   69  l
+   70  cd ..
+   71  cd test
+   72  cd Test
+   73  ls
+   74  cat README.md 
+   75  cd
+   76  ls
+   77  open progit.pdf 
+   78  cat progit.pdf
+   79  clear
+   80  ls
+   81  rm progit.pdf
+   82  cd ..
+   83  cd ..\
+   84  cd ..
+   85  ls
+   86  cd
+   87  cd ..
+   88  ls
+   89  cd ..
+   90  cd
+   91  ls
+   92  cd ..
+   93  ls
+   94  cat phd20/
+   95  cd phd20/
+   96  ls
+   97  cd 20231102/
+   98  ls
+   99  cd cs102-lab-exam-test/
+  100  ls
+  101  cat ca_500.csv
+  102  clear
+  103  cd
+  104  clear
+  105  ls
+  106  ls -al
+  107  rm -rf .bash_history
+  108  ls
+  109  ls -al
+  110  exit
+  111  ls
+  112  exit
+  113  logout
+  114  git clone git@github.com:anshitgupta007/2203304-lab-exam.git
+  115  cd 2203304-lab-exam/
+  116  ls
+  117  vim readme.md
+  118  git add .
+  119  git commit -m "initial commmit"
+  120  git push -u origin master
+  121  cd\
+  122  git pull git@github.com:tusharlone/cs102-git-essentials.git
+  123  git clone git@github.com:tusharlone/cs102-git-essentials.git
+  124  cd cs102-git-essentials/
+  125  ls
+  126  cp *.csv ~/2203304-lab-exam/
+  127  ls
+  128  cd ..
+  129  ls
+  130  cd 2203304
+  131  cd 2203304-lab-exam/
+  132  ls
+  133  cat ca_500.csv
+  134  wc -l ca_500.csv 
+  135  wc -l *.csv 
+  136  cat ca_500.csv -head 1
+  137  help(head)
+  138* 
+  139  less ca_500.csv | head 1
+  140  less ca_500.csv | head -1
+  141  grep "Montreal" ca_500.csv
+  142  grep "Montreal" ca_500.csv >> ca_city_Montreal.csv
+  143  ls
+  144  cat ca_city_Montreal.csv 
+  145  grep -iw "Montreal" ca_500.csv >> ca_city_Montreal.csv
+  146  cat ca_city_Montreal.csv 
+  147  rm ca_city_Montreal.csv 
+  148  grep -iw "Montreal" ca_500.csv >> ca_city_Montreal.csv
+  149  cat ca_city_Montreal.csv 
+  150  less *.csv | head -1
+  151  ls
+  152  less us_500.csv | head -1
+  153  less ca_500.csv | head -1
+  154  rm ca_city_Montreal.csv 
+  155  echo less ca_500.csv | head -1 >> ca_city_Montreal.csv
+  156  cat ca_city_Montreal.csv 
+  157  echo | less ca_500.csv | head -1 >> ca_city_Montreal.csv
+  158  cat ca_city_Montreal.csv 
+  159  echo | less ca_500.csv | head -1 > ca_city_Montreal.csv
+  160  cat ca_city_Montreal.csv 
+  161  grep -iw "Montreal" ca_500.csv >> ca_city_Montreal.csv
+  162  cat ca_city_Montreal.csv 
+  163  vim 2203304_data_filter.sh
+  164  bash 2203304_data_filter.sh ca_city_Montreal.csv
+  165  bash 2203304_data_filter.sh abc def ghi
+  166  vim 2203304_data_filter.sh
+  167  bash 2203304_data_filter.sh abc def ghi
+  168  ls
+  169  cat out__.csv 
+  170  cat out_def_ghi.csv 
+  171  vim 2203304_data_filter.sh
+  172  rm out*
+  173  ls
+  174  bash 2203304_data_filter.sh ca_city_Montreal.csv def ghi
+  175  ls
+  176  vim 2203304_data_filter.sh
+  177  bash 2203304_data_filter.sh ca_city_Montreal.csv def ghi
+  178  ls
+  179  rm def*
+  180  rm out*
+  181  vim 2203304_data_filter.sh
+  182  bash 2203304_data_filter.sh ca_city_Montreal.csv def ghi
+  183  ls
+  184  vim 2203304_data_filter.sh
+  185  bash 2203304_data_filter.sh ca_city_Montreal.csv def ghi
+  186  ls
+  187  vim 2203304_data_filter.sh
+  188  bash 2203304_data_filter.sh ca_city_Montreal.csv def ghi
+  189  vim 2203304_data_filter.sh
+  190  bash 2203304_data_filter.sh ca_city_Montreal.csv def ghi
+  191  ls
+  192  rm {ca*
+  193  rm ca_def_ghi.csv
+  194  rm _def_ghi.csv 
+  195  rm filename.csv 
+  196  ls
+  197  vim 2203304_data_filter.sh
+  198  ls
+  199  bash 2203304_data_filter.sh ca_city_Montreal.csv def ghi
+  200  cat ca_def_ghi.csv 
+  201  vim 2203304_data_filter.sh
+  202  ls
+  203  rm ca_def_ghi.csv 
+  204  ls
+  205  bash 2203304_data_filter.sh us_500.csv city Miami
+  206  vim 2203304_data_filter.sh
+  207  bash 2203304_data_filter.sh us_500.csv city Miami
+  208  vim 2203304_data_filter.sh
+  209  grep -iw Miami us_500.csv
+  210  bash 2203304_data_filter.sh us_500.csv city Miami
+  211  ls
+  212  cat us_city_Miami.csv 
+  213  rm us_city_Miami.csv 
+  214  ls
+  215  bash 2203304_data_filter.sh us_500.csv city Miami
+  216  ls
+  217  cat us_city_Miami.csv 
+  218  ls
+  219  mkdir code
+  220  mkdir data
+  221  ls
+  222  cp *.sh ./code
+  223  cp *.csv ./code
+  224  ls
+  225  mv *.csv ./code
+  226* mv *.sh ./
+  227  ls
+  228  cd code
+  229  ls
+  230  rm out.csv
+  231  ls
+  232  mv *.csv ./data
+  233  mv *.csv ../data
+  234  ls
+  235  cd ..
+  236  cd data
+  237  ls
+  238  cd >>
+  239  cd ..
+  240  history
+  241  history >> 2203304_history.txt
